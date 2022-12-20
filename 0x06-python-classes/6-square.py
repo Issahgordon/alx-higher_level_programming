@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-
 """Square module."""
 
 
@@ -50,6 +49,7 @@ class Square:
     @property
     def position(self):
         """Property for square position.
+
         Raises:
             TypeError: If value is not tuple of 2 positive integers.
         """
@@ -70,6 +70,7 @@ class Square:
 
     def area(self):
         """Area of the square.
+
         Returns:
             thee size squared.
         """
