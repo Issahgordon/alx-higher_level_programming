@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-# 101-square.py
+
 """Define a class Square."""
 
 
@@ -15,7 +15,6 @@ class Square:
         """
         self.size = size
         self.position = position
-
 
     @property
     def size(self):
