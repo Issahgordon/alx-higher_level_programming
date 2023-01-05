@@ -1,7 +1,11 @@
 #!/usr/bin/python3
-"""Defines a Rectangle class."""
+# 0-rectangle.py
+""" File name : 0-rectangle.py
+    Simple rectangle : an empty class Rectangle that defines a rectangle
+    It is not allowed to import any module
+"""
 
 
-class Rectangle:
-    """Represent a rectangle."""
+class Rectangle():
+    """Rectangle: Define new class"""
     pass
