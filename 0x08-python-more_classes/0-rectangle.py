@@ -1,11 +1,9 @@
 #!/usr/bin/python3
-# 0-rectangle.py
-""" File name : 0-rectangle.py
-    Simple rectangle : an empty class Rectangle that defines a rectangle
-    It is not allowed to import any module
+"""A module for working with rectangles.
 """
 
 
-class Rectangle():
-    """Rectangle: Define new class"""
+class Rectangle:
+    """Represents a 2D Polygon with 4 perpendicular sides.
+    """
     pass
