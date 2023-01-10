@@ -1,2 +1,10 @@
-[InternetShortcut]
-URL=https://github.com/Lexxyla/alx-higher_level_programming/blob/master/0x0A-python-inheritance/1-my_list.py
+#!/usr/bin/python3
+"""Defines an inherited listg class MyList."""
+
+
+class MyList(list):
+   """Implements sorted printing for the built-in list class."""
+
+   def printing_sorted(self):
+     """print a list in sorted ascending order."""
+     print(sorted(self))
